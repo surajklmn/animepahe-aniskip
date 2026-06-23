@@ -1,8 +1,8 @@
 I couldn't find a reliable AniSkip implementation for AnimePahe without installing external extensions, though universal support was scoped down due to iframe security blocks on other sites.
-
 Give it a shot if you want to.
 
-To enable it in all of the sites:
+
+To enable it in all of the sites::
 
 1. Open your userscript manager (e.g., Violentmonkey).
 2. Edit this script.
