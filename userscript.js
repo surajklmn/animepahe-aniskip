@@ -11,7 +11,7 @@
 // @match        *://*.kwik.cx/*
 // @match        *://*.kwik.si/*
 // @match        *://*.kwik.pw/*
-// // To enable Universal or other sites (like Miruro), uncomment the match below:
+// To enable Universal or other sites (like Miruro), uncomment the match below:
 // @match        *://*/*
 // @grant        GM_getValue
 // @grant        GM_setValue
