@@ -4,25 +4,31 @@ Give it a shot if you want to.
 
 To enable it in all of the sites:
 
-1.Open your userscript manager (e.g., Violentmonkey).
-2.Edit this script.
-3.Locate the metadata headers and uncomment the universal matcher:
+1. Open your userscript manager (e.g., Violentmonkey).
+2. Edit this script.
+3. Locate the metadata headers and uncomment the universal matcher:
 
-`javascript
-// // To enable Universal or other sites (like Miruro), uncomment the match below:
-// @match        *://*/*`
+```javascript
+// To enable Universal or other sites (like Miruro), uncomment the match below:
+// @match        *://*/*
+```
 
-4.Scroll down to the fast-exit blocks and uncomment the universal checks for parent frames:
-`javascript
+4. Scroll down to the fast-exit blocks and uncomment the universal checks for parent frames:
+
+```javascript
 // To enable Miruro or Universal matching, uncomment the line below:
-const isSupportedParent = href.includes('animepahe.') || href.includes('miruro.') || isWatchPage();`
+const isSupportedParent = href.includes('animepahe.') || href.includes('miruro.') || isWatchPage();
+```
 
-5.Do the same for iframe checks:
-`javascript
+5. Do the same for iframe checks:
+
+```javascript
 // To enable any iframe player (e.g. for Miruro or Universal), uncomment the line below:
-const isSupportedIframe = isIframe;`
+const isSupportedIframe = isIframe;
+```
 
-6.Save the script!
+6. Save the script!
 
-# Credits
-* **APIs Used:** [AniSkip API](https://aniskip.com/) & [Anime Skip GraphQL API](https://anime-skip.com/)
+### Credits
+APIs Used: AniSkip API & Anime Skip GraphQL API
+
