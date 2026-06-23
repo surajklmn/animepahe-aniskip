@@ -23,3 +23,6 @@ const isSupportedParent = href.includes('animepahe.') || href.includes('miruro.'
 const isSupportedIframe = isIframe;`
 
 6.Save the script!
+
+# Credits
+* **APIs Used:** [AniSkip API](https://aniskip.com/) & [Anime Skip GraphQL API](https://anime-skip.com/)
