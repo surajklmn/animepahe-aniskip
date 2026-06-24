@@ -17,7 +17,7 @@ To enable the script on other streaming sites (like Miruro or generic player hos
 2. Edit this script.
 3. Locate the metadata headers and uncomment the universal matcher:
    ```javascript
-   // To enable Universal or other sites (like Miruro), uncomment the match below:
+   // To enable Universal or other sites (like Miruro), change the match to @match:
    // @match        *://*/*
    ```
 4. Scroll down to the fast-exit blocks and uncomment the universal checks for parent frames:
