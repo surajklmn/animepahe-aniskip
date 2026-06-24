@@ -1,4 +1,4 @@
-# AnimePahe OP/ED Skip (Dual-Engine)
+# AnimePahe OP/ED Skip
 
 [![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-v3.2-red?style=flat-square&logo=greasemonkey)](https://greasyfork.org/en/scripts/584067-animepahe-op-ed-skip-dual-engine)
 I couldn't find a reliable AniSkip implementation for AnimePahe without installing external extensions, though universal support was scoped down due to iframe security blocks on other sites. Give it a shot if you want to.
