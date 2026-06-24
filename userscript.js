@@ -13,7 +13,7 @@
 // @match        *://*.kwik.si/*
 // @match        *://*.kwik.pw/*
 // To enable Universal or other sites (like Miruro), uncomment the match below:
-// // @match        *://*/*
+// @match        *://*/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @run-at       document-end
